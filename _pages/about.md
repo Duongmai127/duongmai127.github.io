@@ -1,56 +1,81 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+# title: # "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+I am a final-year Computer Science undergrad at Bellini College of AI, Cybersecurity and Computing, University of South Florida (USF). My research interest is broadly under *Representation Learning*, *Multimodal Learning*, *Ubiquitous Computing*, and *Computational Precision Medicine/Healthcare* (specifically *Medical Imaging* and *Auditing Framework*).
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I am also a research assistant @ USF advised by Profs. Lawrence Hall, Dmitry Goldgof, and Yu Sun, and research trainee @ Moffitt Cancer Center supervised by Naveena Gorre and Dr. Issam El Naqa.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## Select Publication(s) [(Full List)](https://scholar.google.com/citations?user=QjXk8OcAAAAJ&hl=en) {#publications}
+{% include publications.html %}
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## Experience {#experience}
+- *2025.05 - Present*, REU, Robot Perception and Action Lab, Tampa, FL. 
+<br> *Advisor(s)*: [Prof. Dmitry Golgof](https://scholar.google.com/citations?hl=en&user=yQS_n0gAAAAJ) & [Prof. Yu Sun](http://www.cse.usf.edu/~yusun/).
+<br> *Project*: **Real-time Multimodal Neonatal Pain Monitoring System**
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+- *2023.12 - Present*, Reseach Assistant, Intelligent Systems Lab, Tampa, FL. 
+<br> *Advisor(s)*: [Prof. Lawrence Hall](https://scholar.google.com/citations?user=AKHplAUAAAAJ&hl=en). 
+<br> *Project*: **Out-of-Distribution (OOD) Generalization in Chest X-Ray**, **Invariant Risk Minimization (IRMv1) Evaluation**
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+- *2023.04 - Present*, Research Trainee, Moffitt Cancer Center, Tampa, FL. 
+<br> *Supervisor(s)*: [Naveena Gorre](https://lab.moffitt.org/elnaqa/lab-members/naveena-gorre-ms-news/) & [Dr. Issam El Naqa](https://lab.moffitt.org/elnaqa/dr-el-naqa/).
+<br> *Project*: **Moffitt AI Interface for Cancer Research (MAI-CARE)**
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## Extracurriculum {#extracurriculum}
+- *2025.09 - 2025.12*, Participant, CRA's UR2PhD Cohort 6
+<br> <span style="font-size:0.9em;">Research Proposal: **A Universal Evaluation Framework for Visual Noise in Contained Systems**</span>
+- *2024.06 - 2025.12*, Social Media Manager, IEEE Computer Society USF Chapter
+<br> <span style="font-size:0.9em;">Social Media (to Instagram/LinkedIn/TechX website): [Linktree](https://linktr.ee/ieeecsusf?utm_source=linktree_profile_share&ltsid=f152d2f9-0bbf-414d-a87e-3e7656384fbb)</span>
+- *2024.08 - Present*, Statistics/Calculus/Programming Tutor, Academic Success Center
+- *2024.08 - 2025.12*, Teaching Assistant, CDA 3201 Computer Logic and Design
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## Education {#education}
+- *2022.08 - 2026.08 (Expected)*, B.S. in Computer Science, [Bellini College of AI, Cybersecurity, and Computing, University of South Florida](https://www.usf.edu/ai-cybersecurity-computing/), Tampa, FL, USA
+<br> *GPA*: **3.93/4.0** - *Merits*: **Dean's List 2022 - Present**
 
-**Markdown generator**
+## Updates {#updates}
+- *2025.12*: &nbsp;🎉🎉 I am honored to receive the *CRA's UR2PhD Certificate* Cohort 6! Check out my [little recap](https://www.linkedin.com/posts/duongmai127_this-fall-2025-temirzhan-mukhambet-and-i-activity-7403583327745855489-1N08?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD2B-20B3aUM1D0fVZb-H08I1cg2w9osL24) to join us in the celebration.
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+- *2025.12*: &nbsp;🎉🎉 We (Tima and I) presented our CRA's UR2PhD Research Proposal, *"A Universal Evaluation Framework for Visual Noise in Contained Systems"* at the **1st Bellini College REU Symposium**! Check out our [poster](https://drive.google.com/file/d/1nSSgrxhHgvk0yFogL8zruhlZG0eZymef/view?usp=sharing) and [proposal](https://drive.google.com/file/d/1gDa2vvHjwHfWs4Mpw2qsBrLaf9FTGg_v/view?usp=sharing) for more details.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+- *2025.11*: &nbsp;🚀🚀 We (IEEECS_USF) successfully hosted our 2nd run of the only **TechX conference** in US/Canada with over 500 signups, 350 participants, and 200,000 social media reaches! Check out our [blog](https://www.techxflorida.com/2025/report) (written by yours sincere) for more details.
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+- *2025.10*: &nbsp;🚀🚀 Our abstract *"Noise Injection: Improving Out-of-Distribution Generalization for Limited Size Datasets"* has been selected for oral presentation at **SPIE Medical Imaging 2026: CAD** conference in Vancouver, BC!
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+- *2025.10*: &nbsp;🐱🐱 I am excited to join the *RISE-MICCAI* program to work with my mentor on my first submission towards **MICCAI 2026** conference in Abu Dhabi, United Arab Emirates!
+
+- *2025.09*: &nbsp;🥹🥹 I attended the [RISE-MICCAI LISA](https://miccai.org/index.php/news/2025/07/10/rise-miccai-journal-club-special-session-lisa-challenge-july-112025) challenge for the 1st time, and I (barely) survived navigating GAIVI through Out-of-Memory issues for large-scale model...
+
+- *2025.08*: &nbsp;🐱🐱 I am thrilled to be back to **Emory Health AI Datathon & Summer School 2025** in Atlanta, GA to deep dive into applications of medical imaging embeddings!
+
+- *2025.08*: &nbsp;🐱✈️ I flew 710 miles from Tampa, FL to Nashville, TN to attend my long-awaited **VALIANT Summer School 2025** for medical imaging and surgical planning with AI!
+
+- *2025.05*: &nbsp;🎉📢 I joined the **Robot Perception and Action Lab (RPAL)**, Tampa, FL as an REU student on the *"Multimodal Neonatal Pain Monitoring System"* project.
+
+- *2025.04*: &nbsp;🎉🎉 Okay, our team (IEEECS_USF) is honored to receive 3 awards - *Best Social Media, Outstanding Workshop and Best Photograph* - at the annual **USF Engineering Banquet**! As the Social Media Chair and Photographer, I am so damn proud of our team. Check out our [little recap](https://www.instagram.com/p/DIfhOAZO0fa/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==) (written by yours sincere) to join us in the celebration.
+
+- *2025.02*: &nbsp;🎉🥹 I presented my first research poster, *"Can Invariant Risk Minimization (IRMv1) overcome shortcut learning?"* at the **Florida Undergraduate Research Conference (FURC) 2025**! Check out our [poster](https://drive.google.com/file/d/1TeYXY0u2dHu-wX1n5An1OKmj2KcX-rG4/view?usp=sharing) to see my diagrams...
+
+- *2025.01*: &nbsp;🎉📢 Our team developed *"Less Confusion in Diffusion"*, an open-source Vision-Language model to detect common artifacts in Diffusion-Weighted MRI, at **BrainHack Vanderbilt 2025** in Nashville, TN!
+
+- *2025.01*: &nbsp;🎉🎉 I am honored to receive the *Harry and Dorothy Kupferer Scholarship* from USF Engineering!
+
+- *2024.11*: &nbsp;🚀🚀 Our team (IEEECS_USF) successfully hosted the 1st **TechX conference** in US/Canada with over 130 participants!
+
+- *2024.08*: &nbsp;🎉🎉 Our project *"5-year breast cancer risk prediction using EMBED"* won 3rd place at the **Emory Health AI Bias Datathon & Summer School 2024** in Atlanta, GA!
+
+- *2024.06*: &nbsp;🎉📢 I joined the **IEEE Computer Society Student Branch Chapter @ USF (IEEECS_USF)** as a social media manager or marketing chair, you name it.
+
+- *2023.12*: &nbsp;🎉📢 I joined the **Intelligent Systems Lab (ISL)**, Tampa, FL as a research assistant on a series of projects.
+
+- *2023.07*: &nbsp;🎉🎉 I am honored to receive the *Undergraduate Engineer’s Scholarship Fund*!
+
+- *2023.04*: &nbsp;🎉📢 I joined the **Machine Learning Department, Moffitt Cancer Center**, Tampa, FL as a contributor to the open-source project *"Moffitt AI Interface for Cancer Research (MAI-CARE)"*.
+
+- *2022.08*: &nbsp;🎓🎓 I started my degree in Computer Science (CS) at **University of South Florida (USF)**, Tampa, FL with a 4-year *Green and Gold Scholarship*.
